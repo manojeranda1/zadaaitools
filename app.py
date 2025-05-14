@@ -10,7 +10,7 @@ from flask_cors import CORS
 app = Flask(__name__, static_url_path='', static_folder='static')
 CORS(app)
 
-# Configuration
+# Configuration ok
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'webp'}
 OUTPUT_SIZE = (2000, 2000)
 BACKGROUND_COLOR = "#f7f7f7"
